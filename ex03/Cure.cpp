@@ -1,6 +1,6 @@
 #include "Cure.hpp"
 
-Cure::Cure(void) : AMteria("Cure")
+Cure::Cure(void) : AMteria("cure")
 {
     std::cout <<  "Cure default constructor called" << std::endl;
 }

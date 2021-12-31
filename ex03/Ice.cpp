@@ -1,6 +1,6 @@
 #include "Ice.hpp"
 
-Ice::Ice(void) : AMteria("Ice")
+Ice::Ice(void) : AMteria("ice")
 {
     std::cout <<  "Ice default constructor called" << std::endl;
 }
