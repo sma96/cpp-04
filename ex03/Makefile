@@ -11,7 +11,7 @@ OBJS		= $(SRCS:.cpp=.o)
 
 RM			= rm -f
 CXX			= clang++
-CXXFLAGS	= -Wall -Wextra -Werror -Wshadow -Wno-shadow -std=c++98
+CXXFLAGS	= -Wall -Wextra -Werror -std=c++98
 
 $(NAME) : $(OBJS)
 	$(CXX) $(CXXFLAGS) -I . $(OBJS) -o $(NAME)
